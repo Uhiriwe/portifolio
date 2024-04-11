@@ -1,0 +1,237 @@
+.contain {
+  display: flex;
+  gap: 12%;
+  background-color: black;
+
+
+}
+
+.navigation {
+  display: flex;
+  margin-left: 30%;
+  gap: 20%;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+
+
+}
+
+.links {
+  text-decoration: none;
+  margin-left: 80%;
+  color: white;
+  display: hidden;
+}
+@media (max-width: 768px) {
+  .navigation {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .links {
+      margin: 5px 0;
+  }
+}
+@media(max-width: 640px){
+  .navigation{
+    flex-direction: column;
+    align-items: center;
+  }
+  .links{
+    display: hidden;
+  }
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+h1 {
+
+  color: white;
+}
+
+.homepage {
+  background-color: black;
+  margin-top: 1%;
+}
+
+.homeimage {
+  padding-left: 70%;
+  margin-top: -30%;
+
+}
+.btn {
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: transparent;
+  color: #74daa8;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+
+}
+
+.btn :hover {
+  background-color: #74daa8;
+  color: white;
+  cursor: pointer;
+}
+
+.bold {
+  color: #74daa8;
+}
+
+.paragraph {
+  width: 400px;
+  padding: 10%;
+}
+
+.white {
+  color: white;
+}
+
+.about_title {
+  padding-left: 40%;
+  margin-top: 20%;
+}
+
+.profile {
+  width: 20%;
+  border-radius: 100%;
+  margin-top: -40%;
+  padding: 20px;
+}
+
+.about_paragraph {
+  width: 50%;
+  padding-left: 35%;
+  margin-top: 10%;
+}
+
+.div {
+  color: white;
+  width: 90%;
+  box-shadow: 2px 2px 4px white;
+  padding: 5px;
+}
+
+.divisions {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  margin-top: 5%;
+  padding: 10px;
+}
+
+@media (min-width: 640px) {
+  .divisions {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 768px) {
+  .divisions {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .divisions {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.skills {
+  margin-top: 4%;
+  margin-left: 40%;
+
+
+}
+
+.img_project {
+  width: 50%;
+  padding: 5px;
+}
+
+.element_project {
+  color: white;
+  padding-left: 60%;
+  margin-top: -29%;
+}
+
+.resume {
+  margin-top: 20%;
+}
+
+.paragraph_resume {
+  padding: 20px;
+  color: white;
+}
+
+.button_resume {
+  width: 200px;
+  height: 50px;
+  padding-left: 40%;
+
+}
+
+.icon_contact {
+  display: flex;
+  gap: 15%;
+  color: white;
+  padding-left: 50px;
+}
+
+.icon_size {
+  width: 100px;
+}
+
+input {
+
+  width: 80%;
+  height: 30px;
+  border: #397c5c;
+  border-style: double;
+  background-color: transparent;
+}
+
+.area {
+  padding: 20px;
+  width: 77%;
+  height: 80px;
+  border: #477d63;
+  border-style: double;
+  background-color: transparent;
+}
+
+.send {
+  background-color: #305844;
+  color: white;
+  font-family: serif;
+  width: 40%;
+  height: 50px;
+
+}
+
+.button_form {
+  padding-left: 30%;
+}
+
+.form {
+  width: 80%;
+  padding-left: 10%;
+}
+
+::placeholder {
+  color: white;
+}
+
+.footer {
+  color: white;
+  padding-left: 40%;
+  margin-top: 5%;
+
+}
