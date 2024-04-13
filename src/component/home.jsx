@@ -29,7 +29,7 @@ function Home() {
         <div className='about_paragraph' data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
-          <h1 className='about_title'>ABOUT ME!</h1>
+          <h1 id='about' className='about_title'>ABOUT ME!</h1>
           <p className='white'> I'm a software engineer specializing in full-stack development. With a strong academic background in software engineering, I possess a comprehensive skill set encompassing both frontend and backend technologies. On the frontend, I excel in crafting intuitive and engaging user interfaces using<b className='bold'> HTML</b>, <b className='bold'>CSS</b>, and <b className='bold'>JavaScript</b> frameworks like <b className='bold'>React</b>. On the backend, I'm proficient in designing robust server-side architectures and implementing scalable solutions using languages such as <b className='bold'> Node.js</b>, <b className='bold'>PHP</b> and <b className='bold'> Python</b>. My experience in database management and API development allows me to seamlessly integrate frontend and backend components, creating cohesive and efficient web applications. With a passion for innovation and problem-solving, I'm committed to delivering high-quality software solutions that meet the needs of clients and users alike.</p></div>
         <div>
           <img data-aos="fade-up"
@@ -85,7 +85,7 @@ function Home() {
           <h1 className='bold'>80%</h1>
         </div>
       </div>
-      <h1 className='skills'>Projects</h1>
+      <h1 id='portifolio' className='skills'>Projects</h1>
       <div data-aos="fade-up"
      data-aos-duration="3000" className='div_project'>
 
@@ -108,7 +108,7 @@ function Home() {
       <div data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000" className='resume'>
-        <h1  className='skills'>Resume</h1>
+        <h1 id='resume'  className='skills'>Resume</h1>
         <p className='paragraph_resume'> I'm Full stack developer, i did my high school in software development and i'm current student in AUCA (Adventist University in Central Africa) software engineering.I did my enternaship in pixel ink LTD and also i got my exparience in IDA technology.
           The exparience I gained from IDA includes python using  django framework,JavaScript using React, PHP, MySQLi and alse CSS,Tailwind as styling language ...</p>
         <div className='button_resume'>
@@ -116,7 +116,7 @@ function Home() {
         </div>
 
       </div>
-      <h1 className='skills'>Contact Us</h1>
+      <h1 id='contact' className='skills'>Contact Us</h1>
       <div  className='icon_contact'>
         <div>
           <img data-aos="fade-up"

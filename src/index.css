@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .contain {
   display: flex;
   gap: 12%;
@@ -23,22 +28,25 @@
   color: white;
   display: hidden;
 }
+
 @media (max-width: 768px) {
   .navigation {
-      flex-direction: column;
-      align-items: center;
-  }
-
-  .links {
-      margin: 5px 0;
-  }
-}
-@media(max-width: 640px){
-  .navigation{
     flex-direction: column;
     align-items: center;
   }
-  .links{
+
+  .links {
+    margin: 5px 0;
+  }
+}
+
+@media(max-width: 640px) {
+  .navigation {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links {
     display: hidden;
   }
 }
@@ -63,6 +71,7 @@ h1 {
   margin-top: -30%;
 
 }
+
 .btn {
   width: 150px;
   height: 50px;

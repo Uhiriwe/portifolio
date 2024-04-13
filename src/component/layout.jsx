@@ -3,27 +3,27 @@ import { Link, Outlet } from 'react-router-dom';
 function Layout() {
     return (
         <>
-            <div className='contain'>
+            <div className='contain fixed w-full top-0 left-0'>
                 <h1>O l <b className='bold'>i v i</b> n e  <b className='bold'>!</b></h1>
                 <ul className='navigation'>
 
                     <li>
-                        <Link className='links' to='/'>Home</Link>
+                        <a className='links' href='/'>Home</a>
                     </li>
                     <li>
-                        <Link className='links' to='/about'>About</Link>
+                        <a className='links' href='#about'>About</a>
                     </li>
                     <li>
-                        <Link className='links' to='/portifolio'>Portfolio</Link>
+                        <a className='links' href='#portifolio'>Portfolio</a>
                     </li>
                     <li>
-                        <Link className='links' to='/resume'>Resume</Link>
+                        <a className='links' href='#resume'>Resume</a>
                     </li>
                     <li>
-                        <Link className='links' to='/articles'>Articles</Link>
+                        <a className='links' href='#articles'>Articles</a>
                     </li>
                     <li>
-                        <Link className='links' to='/contact'>Contact</Link>
+                        <a className='links' href='#contact'>Contact</a>
                     </li>
                 </ul>
 
