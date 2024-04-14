@@ -4,7 +4,7 @@ function Layout() {
     return (
         <>
             <div className='contain fixed w-full top-0 left-0'>
-                <h1>O l <b className='bold'>i v i</b> n e  <b className='bold'>!</b></h1>
+                <h1><b className='bold'>O</b>livine<b className='bold'>!</b></h1>
                 <ul className='navigation'>
 
                     <li>
