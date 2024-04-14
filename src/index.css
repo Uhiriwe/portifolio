@@ -28,6 +28,10 @@
   color: white;
   display: hidden;
 }
+.links:hover{
+  color: #74daa8;
+  text-decoration: overline;
+}
 
 @media (max-width: 768px) {
   .navigation {
