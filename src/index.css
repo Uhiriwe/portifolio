@@ -82,7 +82,7 @@ h1 {
 
 .paragraph {
   margin-bottom: 20px;
-  margin-left: -30%;
+  margin-left: -15%;
 }
 
 .homeimage {
@@ -107,7 +107,8 @@ h1 {
     margin-left: 20px;
   }
 }
-.buttons{
+
+.buttons {
   display: flex;
   gap: 5%;
 }
@@ -141,6 +142,7 @@ h1 {
   background-color: #74daa8;
   color: white;
 }
+
 .btns:hover {
   color: #74daa8;
   background-color: transparent;
@@ -254,25 +256,28 @@ h1 {
 }
 
 
-.icon_contact > div:last-child {
+.icon_contact>div:last-child {
   margin-right: 0;
 }
 
 @media (max-width: 1024px) {
-  .icon_contact > div {
-    flex: 1 1 calc(25% - 20px); /* 3 items per row */
+  .icon_contact>div {
+    flex: 1 1 calc(25% - 20px);
+    /* 3 items per row */
   }
 }
 
 @media (max-width: 768px) {
-  .icon_contact > div {
-    flex: 1 1 calc(50% - 20px); /* 2 items per row */
+  .icon_contact>div {
+    flex: 1 1 calc(50% - 20px);
+    /* 2 items per row */
   }
 }
 
 @media (max-width: 640px) {
-  .icon_contact > div {
-    flex: 1 1 calc(100% - 20px); /* 1 item per row */
+  .icon_contact>div {
+    flex: 1 1 calc(100% - 20px);
+    /* 1 item per row */
     margin-right: 0;
   }
 }
